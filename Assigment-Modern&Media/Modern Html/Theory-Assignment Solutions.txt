@@ -1,0 +1,80 @@
+Question1
+
+Ans: Some of the main features of HTML5 are as follows -
+Semantics: HTML5 introduced new semantic elements like (header, footer , nav) etc. which help define the structure of web pages.
+Media: Supports audio and video elements, allowing embedding of media.
+Graphics and Animation: The canvas element provides a 2D drawing surface .
+Form Controls: Enhanced form elements such as input type="date", input type="time", input type="email" etc. provides improved user experience.
+Accessibility: New features and attributes such as aria-* attributes for improved accessibility support.
+
+
+Question2
+Ans: HTML entities are special characters that cannot be easily typed on a keyboard or are reserved for use in HTML code. Here are five commonly used HTML entities:
+
+1. &amp; - Exclamation mark - &#33;
+2. &amp; - Ampersand - &#38;
+3. &lt; - Less than sign - &#60;
+4. &gt; - Greater than sign - &#62;
+5. &dollar; - Dollar sign - &#36;
+
+
+Question3
+Ans: Web accessibility refers to the practice of designing and developing web applications that can be accessed and used by people with disabilities or different needs, without barriers or limitations.
+
+There are some assistive devices which play a major role in providing accessibility.
+
+1. Screen Reader : A screen reader is a software that reads out loud the content of a web page to individuals who are visually impaired. It can also interpret and communicate information about graphics, multimedia, and other elements on the page.
+
+2. Voice recognition software: Voice recognition software enables users to navigate web pages and input text using voice commands. This technology is particularly useful for individuals with mobility impairments or those who have difficulty using a keyboard or mouse.
+
+3. Keyboard alternatives: Keyboard alternatives such as sip-and-puff devices, head-tracking devices, and eye-tracking devices allow individuals with physical disabilities to navigate and interact with web pages without the use of a traditional keyboard or mouse.
+
+Question4
+Ans: Here are some of the ways which helps us in mproving accessibility of HTML.
+
+1. Text content
+Having well-structured content that includes headings, paragraphs, and lists is one of the most helpful accessibility features for users who rely on screen readers.
+
+2. Page layouts
+Although it is possible to design a layout using nested <div> elements, it is preferable to utilise proper sectioning elements to encapsulate your main navigation (<nav>), footer (<footer>), repeated content units (<article>), and other relevant content.
+
+These elements offer additional semantics to screen readers and other assistive tools, providing users with more context and information about the content they are browsing. 
+
+3. UI controls
+When referring to UI controls, these are the essential elements of web documents that users engage with, such as buttons, links, and form controls. 
+
+Question5
+Ans: Basically, the tabindex attribute is primarily intended to allow tabbable elements to have a custom tab order (specified in positive numerical order), instead of just being tabbed through in their default source order. 
+
+There are two additional options available for tabindex:
+
+1. tabindex="0" -  this option allows elements that are not usually able to be focused via the keyboard to become focusable. This value of tabindex is particularly beneficial.
+
+2. tabindex="-1" - this option enables elements that are not typically focusable to receive focus programmatically, such as through JavaScript, or as the target of links.
+
+Question6
+Ans: Here are some of the commonly used semantic tags in HTML along with thier descriptions.
+
+1. <header> - Represents the introductory content of a page or section and typically includes a logo, navigation menu, and other elements that are repeated across multiple pages.
+
+2. <nav> - Defines a section of the page that contains navigation links, such as menus and lists of links to other pages or parts of the same page.
+
+3. <main> - Identifies the main content of a web page. It should only be used once per page and should not contain any content that is repeated across multiple pages.
+
+4. <article> - Defines a self-contained section of content on a web page, such as a blog post, news article, or product review.
+
+5. <footer> - Represents the footer or bottom section of a web page, typically containing copyright information, contact details, and links to relevant pages or resources.
+
+These tags provide more specific and meaningful information about the content of a web page, making it easier for search engines and other tools to understand and process the information.
+
+Question7
+Ans: The benefits of using semantic tags in our webpage are:
+
+1. By using Semantic tags in our code, we can provide additional information about that document by defining the layout and sections of the webpage.
+
+2. Semantic elements are of great help to people using screen readers. The additional information provided by semantic tags helps screen readers understand the content better and help them to determine the different sections within a page more efficiently.
+
+3. HTML Semantic tags help the browser determine the purpose of the page and its content. Semantic tags also help in Search Engine Optimization as they help browsers interpret the content more easily by making content more adaptive.
+
+
+
